@@ -10,7 +10,7 @@ function Pipe() {
   this.hits = function(bird) {
     if(bird.y < this.top || bird.y > height - this.bottom){
       if(bird.x > this.x && bird.x < this.x + this.w){
-        this.hightlight = true;
+        this.highlight = true;
         return true;
       }
     }
